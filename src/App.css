@@ -7,6 +7,10 @@
  justify-content: center;
 
 }
+h2{
+  color:white;
+}
+
 .ranQoute p{
 
   display: inline;
@@ -16,7 +20,6 @@
 }
 button { 
   margin-left: 30rem;
-
   box-shadow: 1px 1px 1px #BEE2F9;
   padding: 20px 25px;
   border-radius: 10px;
@@ -34,3 +37,9 @@ button {
    color:#013f66;
    font-weight: bold;;
  }
+@media  screen and (max-width: 600px) {
+  button {
+    margin-left: 10rem;
+    font-size: 15px;
+  }
+}
