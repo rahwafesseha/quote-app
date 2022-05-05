@@ -37,9 +37,10 @@ button {
    color:#013f66;
    font-weight: bold;;
  }
+
 @media  screen and (max-width: 600px) {
   button {
-    margin-left: 10rem;
+    margin-left: 4rem;
     font-size: 15px;
   }
 }
