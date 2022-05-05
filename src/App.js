@@ -36,8 +36,9 @@ function App() {
   return (
     <div className="app">
       <h3 className="ranQoute">
-        Random Quote: "{randomQuote.quote} -{randomQuote.author}
-        {randomQuote.author}"
+        Random Quote: "{randomQuote.quote}"
+        <div className="author">{randomQuote.author}</div>
+      
       </h3>
       <button onClick={generateQuote}> Generate a random quote! </button>
       {/* <hr />
